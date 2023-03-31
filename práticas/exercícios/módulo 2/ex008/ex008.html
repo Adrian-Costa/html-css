@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <title>Grouping Tags</title>
+     <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(161, 74, 16);
+            margin: 0px;
+        }
+        header{
+            color: rgb(255, 94, 0);
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        main{
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(255, 184, 137);
+            text-align: justify;
+            padding: 10px;
+            margin: 7px;
+            border-radius: 0px 20px;
+        }
+        article > aside{
+            background-color: bisque;
+            color: rgb(0, 0, 0);
+            margin: 0px;
+            padding: 1px;
+            border-radius: 20px;
+        }
+        footer{
+            background-color:  bisque;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            padding: 4px;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        p{
+            text-indent: 20px;
+        }
+        nav{
+            background-color: rgb(255, 184, 137);
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+            margin: 0px 20px 10px 0px;
+            border-radius: 20px;
+        }
+        nav > a{
+            color: bisque;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer > p{
+            margin: 0px;
+        }
+     </style>
+ </head>
+
+ <body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#"> link </a>
+            <a href="#"> link </a>
+            <a href="#"> link </a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Assuntos</h1>
+            <ul>
+                <li>Título de Notícia Genérica (1</li>
+                <li>Título de Notícia Genérica (2</li>
+            </ul>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h1>Título de Notícia Genérica(1)</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis quisquam qui labore sequi? Corporis iure similique sit harum vero laborum eligendi, voluptas iste quod illum maxime adipisci corrupti nesciunt!</p>
+            </article>
+
+            <article>
+                <h1>Título de Notícia Genérica(1)</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis quisquam qui labore sequi? Corporis iure similique sit harum vero laborum eligendi, voluptas iste quod illum maxime adipisci corrupti nesciunt!</p>                
+                <aside>
+                    <p>Artigo escrito por mim :)</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim :)</p>
+    </footer>
+ </body>
+
+</html>
