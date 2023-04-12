@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('imagens/pexels-dids-1769734.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+}
+nav > section{
+    display: inline;
+    padding: 8px 18px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color: rgb(142, 207, 149);
+    background-color: rgb(29, 39, 28);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
