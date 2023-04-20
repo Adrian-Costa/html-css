@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Exercício de Tabelas</title>
+     <style>
+        table{
+            border-collapse: collapse;
+            margin: 30px 30px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px 20px;
+        }
+        caption{
+            margin: 5px;
+        }
+        col.cnome{
+            background-color: yellow;
+        }
+     </style>
+ </head>
+
+ <body>
+    
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Mariana Barbosa</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Jornaleira</td>
+        </tr>
+        <tr>
+            <td>Mariano Dias</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Analista</td>
+        </tr>
+        <tr>
+            <td>Maria Ana</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Polícial</td>
+        </tr>
+        <tr>
+            <td>Mario Bross</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Come atrás de armários</td>
+        </tr>
+        <tr>
+            <td>Maria Bentes</td>
+            <td>F</td>
+            <td>95</td>
+            <td>Aposentada</td>
+        </tr>
+    </table>
+ </body>
+
+</html>
