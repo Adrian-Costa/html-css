@@ -51,7 +51,7 @@ iframe{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 53vh;
-    width: 33vw;
+    height: 478px;
+    width: 270px;
     background-color: gray;
 }
