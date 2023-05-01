@@ -59,6 +59,6 @@ span#burger{
     cursor: pointer;
 }
 span#burger:hover{
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     color: black;
 }
